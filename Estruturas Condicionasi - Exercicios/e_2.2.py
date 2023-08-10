@@ -1,3 +1,5 @@
+# Exercício 2.2 Escreva um programa que verifique se um número digitado pelo usuário é positivo, negativo ou zero
+
 n = int(input("Número: "))
 
 if n > 0:
