@@ -5,3 +5,6 @@ a = float(input("Digite sua altura: "))
 
 imc = p / (a ** 2)
 print(f"Seu IMC : {imc}")
+
+
+
