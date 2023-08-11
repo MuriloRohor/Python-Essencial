@@ -1,18 +1,11 @@
 # Exercício 2.7 Escreva um programa que verifique se uma string é um número inteiro ou não e
 # mostre uma mensagem de acordo (pode usar estrutura de repetição). 
 
-frase = input("Frase: ").replace('\b'),
-palindromo = list(frase)
-palindromo.reverse()
+str_ = input("Numero: ")
 
-palindromo = ''.join(palindromo)
-
-if palindromo == frase:
-    print(f"{frase}")
-    print(f"{palindromo}")
-    print("É um palíndromo")
-
+if str_.isnumeric():
+     print("É um numero inteiro")
 else:
-    print(f"{frase}")
-    print(f"{palindromo}")
-    print("Não é um palíndromo")
+     print("Não é um numero inteiro")
+    
+
