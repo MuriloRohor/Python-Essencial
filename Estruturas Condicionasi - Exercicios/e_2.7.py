@@ -1,11 +1,16 @@
 # Exercício 2.7 Escreva um programa que verifique se uma string é um número inteiro ou não e
 # mostre uma mensagem de acordo (pode usar estrutura de repetição). 
 
-str_ = input("Numero: ")
+s = input("Digite numero inteiro: ")
+eh_inteiro = True
 
-if str_.isnumeric():
-     print("É um numero inteiro")
+for char in s:
+    if not char.isdigit():
+        eh_inteiro = False
+        break
+if eh_inteiro:
+    print("A string é um número inteiro")
 else:
-     print("Não é um numero inteiro")
+    print("A string não é um número inteiro")
     
 
