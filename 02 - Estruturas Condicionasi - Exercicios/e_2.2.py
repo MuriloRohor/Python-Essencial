@@ -8,4 +8,3 @@ elif n < 0:
     print(f"{n} é Negativo")
 else:
     print(f"{n} é 0")
-    

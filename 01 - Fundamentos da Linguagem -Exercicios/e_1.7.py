@@ -14,5 +14,3 @@ def TelaConsole():
     print(f"Produto   |   Custo   |   Preço   |   QNTD EST   |   LUCRO TOTAL\n{np}         {pc}       {pv}         {qe}             {LucroProduto(pc, pv, qe)}")
 
 TelaConsole();
-
-

@@ -8,5 +8,3 @@ a = float(input("Quantos anos: "))
 m = c * (1 + i) ** a
 
 print(f"Investimento de : {m:.2f}")
-
-

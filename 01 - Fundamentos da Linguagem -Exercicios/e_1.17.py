@@ -11,6 +11,3 @@ f = m - (m * (d/100))
 f += (f * (i/100))
 
 print(f"Preço Produto: {m:.2f}\nImposto: {i} %\nDesconto: {d} %\nPreço Final: {f:.2f}")
-
-
-

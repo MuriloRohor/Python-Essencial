@@ -12,5 +12,3 @@ if eh_inteiro:
     print("A string é um número inteiro")
 else:
     print("A string não é um número inteiro")
-    
-

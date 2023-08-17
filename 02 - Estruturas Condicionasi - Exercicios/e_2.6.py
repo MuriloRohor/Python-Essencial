@@ -11,11 +11,3 @@ if eh_palindromo(frase):
     print("É um palíndromo!")
 else:
     print("Não é um palíndromo!")
-
-
-
-
-
-
-
-
