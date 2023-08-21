@@ -1,0 +1,1 @@
+# Exercício 3.4 Soma todos os números de 1 a 100
