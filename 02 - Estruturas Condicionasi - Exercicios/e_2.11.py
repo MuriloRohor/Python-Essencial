@@ -3,9 +3,9 @@
 
 temp = float(input("Digite sua temperatura: "))
 
-if temp > 37:
+if (temp > 37):
     print("Temperatura acima do normal!")
-elif temp < 36:
+elif (temp < 36):
     print("Temperatura abaixo do normal!")
 else:
     print("Temperatura normal!")
