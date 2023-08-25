@@ -9,5 +9,3 @@ while True:
         lista_numeros.append(n)
         media = sum(lista_numeros) / len(lista_numeros)
         print(f"Média : {media}")
-    
-    
