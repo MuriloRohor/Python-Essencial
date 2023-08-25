@@ -19,8 +19,3 @@ while True:
     else:
         print(f"Reprovado : {media:.2f}")
         break
-    
-    
-
-
-
