@@ -6,6 +6,3 @@ a = int(input("Digite um angulo º: "))
 print(f'Seno : {math.sin(a):.2f}')
 print(f'cosseno  : {math.cos(a):.2f}')
 print(f'tangente : {math.tan(a):.2f}')
-
- 
-
