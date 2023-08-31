@@ -1,10 +1,8 @@
-# Exercício 6.6 Crie uma função que receba uma lista como argumento e adicione um elemento à
-# lista dentro da função. Em seguida, imprima a lista fora da função para verificar se o elemento foi adicionado corretamente.
+# Exercício 6.5 Crie uma função que defina uma variável x dentro da função e imprima o valor de x
+# na tela. Em seguida, chame a função e verifique se a variável x está acessível fora da função. 
 
-lista = list(range(0,10))
-def adicionarElementoList(lista: list) -> None:
-    lista.append('Teste')
-    print(f"Print dentro da função | {lista}")
+def definirVariavel() -> None:
+    x = 'Variável X'
+    print(x)
 
-adicionarElementoList(lista)
-print(f"Print fora da função | {lista}")
+# print(x) -> NameError: name 'x' is not defined
