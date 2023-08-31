@@ -1,7 +1,6 @@
-# Exercício 4.6 Crie um programa que peça ao usuário para inserir dois números complexos e calcule
-# a soma e o produto desses números.
+# Exercício 4.5 Crie um programa que peça ao usuário para inserir um número e calcule o fatorial desse número.
+import math
 
-n = float(input("Digite um número: "))
-n2 = float(input("Digite um número: "))
+n = int(input("Digite um número: "))
 
-print(f"Soma : {n+n2:.2f} | Produto : {n*n2:.2f}")
+print(f'Fatorial de {n} = {math.factorial(n)}')
