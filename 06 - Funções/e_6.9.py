@@ -1,0 +1,1 @@
+# Exercício 6.9 Crie uma função recursiva que calcule o fatorial de um número inteiro.
